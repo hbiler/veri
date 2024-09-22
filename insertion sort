@@ -1,0 +1,18 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+22 ve 27 karşılaştırılır. 22 küçük olduğu için dizi aynı kalır.         [22,27,16,2,18,6]
+16 ile 22 karşılaştırıldığında 16 daha küçük olduğu için soluna yazılır.  [16,22,27,2,18,6]
+2, 16 ile karşılaştırıldığında daha küçük olduğu için soluna ytazılır.  [2,16,22,27,18,6]
+18 ile 2,16,22,27 karşılaştırılır 18, 16 dan büyük 22den küçük olduğu için 22 ile 16 nın arasına yazılır. [2,16,18,22,27,6]
+6 ile 2,16,18,22,27 karşılaştırılır. 6, 2 den büyük 16 dan küçük olduğu için 2 ile 16 arasına yazılır. [2,6,16,18,22,27]
+
+Big-O gösterimi -- n(n+1)/2 = O(n^2)
+
+18 sayısı dizinin ortasında olduğu için avarage case kapsamına girer.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+1. en küçük sayı 2 olduğu için serinin başındaki 7 ile yer değiştirir. [2,3,5,8,7,9,4,15,6]
+2. ikinci en küçük sayı 3 yerinde olduğu için işlem yapılmaz.
+3. sıradaki en küçük sayı 4 olduğu için serinin üçüncü elemanı 5 ile yer değiştirir. [2,3,4,8,7,9,5,15,6]
+4. sıradaki en küçük sayı 5 ile 8 yer değiştirir. [2,3,4,5,7,9,8,15,6]
